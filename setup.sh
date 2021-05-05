@@ -90,10 +90,10 @@ brew cask install --appdir="/Applications" alfred
 brew cask install --appdir="/Applications" visual-studio-code
 
 # Misc casks
-brew cask install --appdir="/Applications" firefox
-brew cask install --appdir="/Applications" slack
-brew cask install --appdir="/Applications" 1password
-brew cask install --appdir="/Applications" caffeine
+brew install --appdir="/Applications" firefox
+brew install --appdir="/Applications" slack
+brew install --appdir="/Applications" 1password
+brew install --appdir="/Applications" caffeine
 
 # Remove outdated versions from the cellar.
 echo "Running brew cleanup..."
