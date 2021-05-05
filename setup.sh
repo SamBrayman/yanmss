@@ -48,7 +48,7 @@ brew upgrade
 
 # Install iTerm2
 echo "Installing iTerm2..."
-brew cask install iterm2
+brew install iterm2
 
 # Update the Terminal
 # Install oh-my-zsh
@@ -83,13 +83,13 @@ brew install nmap
 # Install other useful binaries.
 brew install speedtest_cli
 
-# Core casks
-brew cask install --appdir="/Applications" alfred
+# Core
+brew install --appdir="/Applications" alfred
 
-# Development tool casks
-brew cask install --appdir="/Applications" visual-studio-code
+# Development tool
+brew install --appdir="/Applications" visual-studio-code
 
-# Misc casks
+# Misc
 brew install --appdir="/Applications" firefox
 brew install --appdir="/Applications" slack
 brew install --appdir="/Applications" 1password
